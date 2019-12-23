@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+.contenedor-principal {
+  margin: 0 auto;
+  width: 600px;
+  height: 450px;
+  background: #F2FCFF;
+  border: 2px solid #C3F1FF;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 30px;
+  top: 287px;
+}
+
+.ingresar-correo {
+  margin: 0 auto;
+  width: 500px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 1px solid #C3F1FF;
+  box-sizing: border-box;
+  border-radius: 39.5px;
+}
+
+.ingresar-password {
+  margin: 0 auto;
+  width: 500px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 1px solid #C3F1FF;
+  box-sizing: border-box;
+  border-radius: 39.5px;
+}
+
+.login {
+  margin: 0 auto;
+  width: 500px;
+  height: 80px;
+  background: #5AD2AE;
+  border: 1px solid #469F85
+  box-sizing: border-box;
+  border-radius: 39.5px;
+  position: relative;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 49px;
+  color: #5AD2AE;
+  position: relative;
+  top: 29px;
+  text-align: center;
+}
+
+p1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #5AD2AE;
+  position: relative;
+  top: 26px;
+  left: 36px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+}
+
+p2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #AFAFAF;
+  position: relative;
+  text-align: center;
+}
