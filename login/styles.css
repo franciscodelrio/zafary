@@ -26,6 +26,7 @@ main {
   border: 1px solid #C3F1FF;
   box-sizing: border-box;
   border-radius: 39.5px;
+  position: relative;
 }
 
 .ingresar-password {
@@ -36,6 +37,7 @@ main {
   border: 1px solid #C3F1FF;
   box-sizing: border-box;
   border-radius: 39.5px;
+  position: relative;
 }
 
 .login {
@@ -47,6 +49,7 @@ main {
   box-sizing: border-box;
   border-radius: 39.5px;
   position: relative;
+  left: 50px;
 }
 
 h1 {
@@ -91,6 +94,6 @@ p2 {
   font-size: 18px;
   line-height: 21px;
   color: #AFAFAF;
-  position: relative;
+  right: 1em;
   text-align: center;
 }
