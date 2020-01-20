@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    height: 600px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+
+img {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+}

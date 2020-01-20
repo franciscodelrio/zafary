@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,21 @@
   <title>LOGIN</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <main class="contenedor-principal">
-    <h1>Ingresa a Safary</h1>
-    <section class="ingresar-correo">
-      <p1>Ingresa tu correo</p1>
+  <main>
+    <section class="contenedor-login">
+      <h1>Ingresa a Zafary</h1>
+      <form class="datos-login">
+        <input id="correo" type="text" placeholder="   Ingresa tu correo">
+        <input id="password" type="password" placeholder="   Ingresa tu contraseña">
+        <input id="boton" type="button" value="LOGIN">
+        <small class="error oculto" id="error">Nombre de usuario y/o contraseña incorrectos</small>
+        <small class="corazon">Yo ❤️ Zafary</small>
+      </form>
     </section>
-    <section class="ingresar-password">
-      <p1>Ingresa tu contraseña</p1>
-    </section>
-    <button class="login">
-      <h2>LOGIN</h2>
-    </button>
-    <p2>yo ❤︎ Safary</p2>
   </main>
+  <script src="./index.js"></script>
 </body>
+
 </html>

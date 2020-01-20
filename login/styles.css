@@ -1,99 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  display: grid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 main {
-  display: block;
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
 
-.contenedor-principal {
-  margin: 0 auto;
-  width: 600px;
-  height: 450px;
+.contenedor-login {
+  width: 420px;
+  padding: 40px 40px;
   background: #F2FCFF;
   border: 2px solid #C3F1FF;
-  box-sizing: border-box;
-  position: relative;
   border-radius: 30px;
-  top: 287px;
 }
 
-.ingresar-correo {
-  margin: 0 auto;
-  width: 500px;
-  height: 80px;
-  background: #FFFFFF;
-  border: 1px solid #C3F1FF;
-  box-sizing: border-box;
-  border-radius: 39.5px;
-  position: relative;
-}
-
-.ingresar-password {
-  margin: 0 auto;
-  width: 500px;
-  height: 80px;
-  background: #FFFFFF;
-  border: 1px solid #C3F1FF;
-  box-sizing: border-box;
-  border-radius: 39.5px;
-  position: relative;
-}
-
-.login {
-  margin: 0 auto;
-  width: 500px;
-  height: 80px;
-  background: #5AD2AE;
-  border: 1px solid #469F85
-  box-sizing: border-box;
-  border-radius: 39.5px;
-  position: relative;
-  left: 50px;
-}
-
-h1 {
+.contenedor-login h1 {
+  text-align: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 42px;
   line-height: 49px;
   color: #5AD2AE;
-  position: relative;
-  top: 29px;
+}
+
+.datos-login {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+}
+
+.datos-login input[type="text"],
+input[type="password"] {
+  height: 80px;
+  border: 1px solid #C3F1FF;
+  border-radius: 39.5px;
   text-align: center;
 }
 
-p1 {
+.datos-login input[type="button"] {
+  color: #FFFFFF;
+  background: turquoise;
+  border-radius: 39.5px;
+  border: 1px solid #C3F1FF;
+  height: 80px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.datos-login input[type="button"]:hover {
+  cursor: pointer;
+  background: #469F85;
+}
+
+.datos-login input::placeholder {
+  color: #5AD2AE;
+  opacity: 1;
+  text-align: left;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   color: #5AD2AE;
-  position: relative;
-  top: 26px;
-  left: 36px;
 }
 
-h2 {
+.oculto {
+  display: none;
+}
+
+.error {
+  text-align: center;
+  position: relative;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFFFF;
-  position: relative;
-  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: red;
 }
 
-p2 {
+.corazon {
+  text-align: center;
+  position: relative;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #AFAFAF;
-  right: 1em;
-  text-align: center;
 }
